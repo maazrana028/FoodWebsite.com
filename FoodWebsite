@@ -3,74 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grill & Burger Haven</title>
+    <title>Peri Peri Sizzlers</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header id="header">
         <div class="container">
-            <h1>Grill & Burger Haven</h1>
+            <h1>Peri Peri Sizzlers</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
-    <section id="home" class="hero">
+    <!-- Special Offers Banner -->
+    <section class="offers-banner">
         <div class="container">
-            <h2>Welcome to Grill & Burger Haven</h2>
-            <p>Discover the juiciest grilled chicken and the most delicious burgers in town!</p>
-            <a href="#menu" class="btn">View Menu</a>
+            <p>🎉 Special Offer: Get 20% off on all orders above £30! 🎉</p>
         </div>
     </section>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Welcome to Peri Peri Sizzlers</h2>
+            <p class="animate__animated animate__fadeIn">Where flavor meets fire! Savor the best grilled chicken, smash burgers, and crispy fries in Egham, UK.</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="btn animate__animated animate__fadeInUp">Explore Menu</a>
+                <a href="#reservations" class="btn btn-secondary animate__animated animate__fadeInUp">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
     <section id="menu" class="menu">
         <div class="container">
-            <h2>Our Specials</h2>
+            <h2>Our Menu</h2>
             <div class="menu-items">
                 <div class="menu-item">
                     <img src="grilled-chicken.jpg" alt="Grilled Chicken">
-                    <h3>Grilled Chicken</h3>
-                    <p>Perfectly grilled chicken with a blend of secret spices.</p>
+                    <h3>Peri Peri Grilled Chicken</h3>
+                    <p>Juicy chicken marinated in our signature Peri Peri sauce, flame-grilled to perfection.</p>
+                    <span class="price">£12.99</span>
                 </div>
                 <div class="menu-item">
-                    <img src="burger.jpg" alt="Burger">
-                    <h3>Classic Burger</h3>
-                    <p>A juicy beef patty with fresh veggies and our special sauce.</p>
+                    <img src="smash-burger.jpg" alt="Smash Burger">
+                    <h3>Smash Beef Burger</h3>
+                    <p>A perfectly smashed beef patty with melted cheese, fresh veggies, and tangy sauce.</p>
+                    <span class="price">£10.99</span>
+                </div>
+                <div class="menu-item">
+                    <img src="french-fries.jpg" alt="French Fries">
+                    <h3>Crispy French Fries</h3>
+                    <p>Golden, crispy fries made from the finest potatoes, served with a side of ketchup.</p>
+                    <span class="price">£4.99</span>
+                </div>
+                <div class="menu-item">
+                    <img src="milkshake.jpg" alt="Milkshake">
+                    <h3>Creamy Milkshakes</h3>
+                    <p>Thick and creamy milkshakes in chocolate, vanilla, and strawberry flavors.</p>
+                    <span class="price">£5.99</span>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>At Grill & Burger Haven, we are passionate about serving the best grilled chicken and burgers. Our ingredients are fresh, and our recipes are crafted to perfection.</p>
+            <p>At Peri Peri Sizzlers, we bring the heat with our flame-grilled specialties. Located in the heart of Egham, UK, we are passionate about serving bold flavors and unforgettable dining experiences.</p>
+            <a href="#reservations" class="btn">Book a Table</a>
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have any questions or want to place an order? Reach out to us!</p>
-            <form action="#" method="post">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="gallery1.jpg" alt="Gallery Image 1">
+                <img src="gallery2.jpg" alt="Gallery Image 2">
+                <img src="gallery3.jpg" alt="Gallery Image 3">
+                <img src="gallery4.jpg" alt="Gallery Image 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-items">
+                <div class="testimonial-item">
+                    <p>"The best grilled chicken I've ever had! The Peri Peri sauce is out of this world."</p>
+                    <span>- John D.</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Amazing food and great service. Highly recommend the smash burgers!"</p>
+                    <span>- Sarah L.</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"A must-visit spot in Egham. The loaded fries are to die for!"</p>
+                    <span>- Mike T.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations" class="reservations">
+        <div class="container">
+            <h2>Reservations</h2>
+            <form id="reservation-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <input type="number" name="guests" placeholder="Number of Guests" required>
+                <button type="submit">Book Now</button>
             </form>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> 123 High Street, Egham, UK</p>
+                <p><i class="fas fa-phone"></i> +44 123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> info@periperisizzlers.com</p>
+            </div>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.540423904379!2d-0.5662206842298195!3d51.50735077963448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766e5e3b7b7a6d%3A0x1e0a0a0a0a0a0a0a!2sEgham%2C%20UK!5e0!3m2!1sen!2suk!4v1633024000000!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Grill & Burger Haven. All rights reserved.</p>
+            <p>&copy; 2023 Peri Peri Sizzlers. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
     </footer>
+
+    <!-- JavaScript for Smooth Scrolling, Sticky Nav, and Mobile Menu -->
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Sticky navigation bar
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+
+        // Mobile menu toggle
+        const nav = document.querySelector('nav ul');
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
